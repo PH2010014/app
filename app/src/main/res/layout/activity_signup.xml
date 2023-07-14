@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup"
+    android:background="@drawable/bgsignup">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Form Sign Up"
+        android:layout_marginTop="40dp"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"/>
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="#99FFFFFF"
+        >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp">
+                <EditText
+                    android:id="@+id/namadepan"
+                    android:layout_width="150dp"
+                    android:layout_height="50sp"
+                    android:hint="Nama Depan"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/black"
+                    />
+                <EditText
+                    android:id="@+id/namablk"
+                    android:layout_width="150dp"
+                    android:layout_height="50sp"
+                    android:hint="Nama Belakang"
+                    android:layout_marginLeft="15dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/black"
+                    />
+                </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/userbaru"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Masukkan Username/Email"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/pwbaru"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:hint="Masukkan Password"
+        android:foregroundGravity="center"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/pwconfirbaru"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:hint="Masukkan Ulang Password"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="170dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"/>
+</FrameLayout>
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="200dp"
+        android:layout_height="50sp"
+        android:text="Sign Up"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#F3E3D3"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="500dp"/>
+
+
+</RelativeLayout>

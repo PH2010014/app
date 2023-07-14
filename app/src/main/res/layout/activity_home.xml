@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home"
+    android:background="#FFF0DB">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#D9000000">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eirene \n Collections"
+            android:textColor="#99FFFFFF"
+            android:textAlignment="center"
+            android:padding="30dp"
+            android:textStyle="italic"
+            android:textSize="40dp"
+            android:fontFamily="cursive"/>
+
+        <ImageButton
+            android:id="@+id/imgprofil"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="25dp"
+            android:contentDescription="@string/material_motion_easing_standard"
+            android:src="@drawable/profil" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btnmenu1"
+        android:contentDescription="@string/material_motion_easing_standard"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:foreground="@drawable/dressill"
+        android:shadowRadius="@integer/material_motion_duration_long_2"
+        />
+    <Button
+        android:id="@+id/btnmenu2"
+        android:contentDescription="@string/material_motion_easing_standard"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:foreground="@drawable/heelsill"
+        android:layout_marginLeft="20dp"
+        />
+    <Button
+        android:id="@+id/btnmenu3"
+        android:contentDescription="@string/material_motion_easing_standard"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:foreground="@drawable/crown"
+        android:layout_marginLeft="20dp"
+        />
+
+
+
+
+</RelativeLayout>

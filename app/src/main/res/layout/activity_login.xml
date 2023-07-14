@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:background="@drawable/bgmenu">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Let's Go!"
+        android:textSize="50dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Life too short to wear boring clothes"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_marginLeft="50dp"/>
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="#99FFFFFF"
+
+        >
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Masukkan Username/Email"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:hint="Masukkan Password"
+        android:foregroundGravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:text="Login"
+        android:backgroundTint="#99F3E3D3"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="180dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum punya akun?"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="120dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/tcreate"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:text="Create An Account"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="130dp"
+            android:textColor="#1535FF"
+            android:clickable="true"/>
+</FrameLayout>
+
+    <Button
+        android:id="@+id/btnlewati"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Lewati"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#33F63526"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="600dp"/>
+
+
+</RelativeLayout>
